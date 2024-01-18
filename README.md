@@ -28,7 +28,7 @@ A content-based recommendation engine is a type of recommendation system that us
 - Scalability is a challenge.
 - Attributes may be incorrect or inconsistent.
 
-# Developement
+# Development
 
 The recommendation engine is built using Nearest Neighbors alogrithm which is an unsupervised learner for implementing neighbor searches. It acts as a uniform interface to three different nearest neighbors algorithms: BallTree, KDTree, and a brute-force algorithm based on routines in sklearn.metrics.pairwise. For our case, we used the brute-force algorithm using cosine similarity due to its fast computation for small datasets.
 
@@ -67,7 +67,7 @@ This project is not intended for high end commercial use, and its outcomes are p
 
 Any unintended implications or potential conflicts arising from the development of this project are unintentional, and the team is committed to addressing them transparently. This disclosure is made to ensure openness and to provide context for the project's purpose.
 
-# Developement Team:
+# Development Team:
 
 - Prateek Dutta  (Machine learning Engineer, Hyderabad-India)
 - Chetna Tambushkar (Data Science Engineer, Nagpur-India)
